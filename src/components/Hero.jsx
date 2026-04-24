@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
-import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -47,7 +46,7 @@ export default function Hero() {
          <FaEnvelope /> React Out
       </a>
 
-      <a href="/cv.pdf" className="btn outline" download>
+      <a href="/kesavakumar_resume.pdf" className="btn outline" download>
         <FaDownload /> Download CV
       </a>
 

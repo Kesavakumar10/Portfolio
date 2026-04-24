@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import {FaUserFriends, FaPhone, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaPhone,
+  FaUserFriends,
+} from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -18,10 +24,10 @@ export default function Contact() {
           WebkitTextFillColor: "transparent",
         }}
       >
-      LET’S COLLABORATE
+        LET'S COLLABORATE
       </h1>
       <p className="heading-line"></p>
-      {/* Main Box */}
+
       <motion.div
         className="contact-main-box"
         initial={{ opacity: 0, y: 60 }}
@@ -29,15 +35,23 @@ export default function Contact() {
         transition={{ duration: 0.8, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h2  style={{display:"flex", justifyContent:"center",alignItems:"center",gap:"10px",fontWeight:"600"}}>
-        <FaUserFriends/>Stay in Touch</h2>
-        
-        {/* <h3 className="contact-title">Let's Talk</h3> */}
+        <h2
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "10px",
+            fontWeight: "600",
+          }}
+        >
+          <FaUserFriends />
+          Stay in Touch
+        </h2>
 
         <div className="contact-item">
           <FaPhone />
           <div>
-            <p style={{color:"white"}}>Mobile</p>
+            <p style={{ color: "white" }}>Mobile</p>
             <span>+91 94442 37869</span>
           </div>
         </div>
@@ -45,16 +59,14 @@ export default function Contact() {
         <div className="contact-item">
           <FaEnvelope />
           <div>
-            <p style={{color:"white"}}>Email</p>
+            <p style={{ color: "white" }}>Email</p>
             <span>kesavakumar0005@gmail.com</span>
           </div>
         </div>
-        <div className="cta-mini">
-          Open to freelance work and meaningful collaborations
-        </div>
+
+        <div className="cta-mini">Open to freelance work and meaningful collaborations</div>
       </motion.div>
 
-      {/* Social Box */}
       <motion.div
         className="contact-social-box"
         initial={{ opacity: 0, y: 60 }}
@@ -65,18 +77,30 @@ export default function Contact() {
         <h3>Connect With Me</h3>
 
         <div className="social-buttons">
-          <a href="https://github.com/Kesavakumar10" target="blank" className="social-btn github">
+          <a
+            href="https://github.com/Kesavakumar10"
+            target="_blank"
+            rel="noreferrer"
+            className="social-btn github"
+          >
             <FaGithub /> GitHub
           </a>
 
-          <a href="https://www.linkedin.com/in/kesavakumar-ramesh/" target="blank" className="social-btn linkedin">
+          <a
+            href="https://www.linkedin.com/in/kesavakumar-ramesh/"
+            target="_blank"
+            rel="noreferrer"
+            className="social-btn linkedin"
+          >
             <FaLinkedin /> LinkedIn
           </a>
         </div>
+
         <div className="cta-box">
-          <h3 className="cta-heading">Let’s Work Together</h3>
+          <h3 className="cta-heading">Let's Work Together</h3>
           <p className="cta-text">
-            Open to opportunities and meaningful collaborations. Let’s create something impactful.
+            Open to opportunities and meaningful collaborations. Let's create something
+            impactful.
           </p>
         </div>
       </motion.div>
