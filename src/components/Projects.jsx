@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Shopping Cart Web Application",
       img: "/WebCart.png",
-      github: "#",
+      github: "https://github.com/Kesavakumar10/EliteArena",
       live: "https://elitecart1.netlify.app/",
       description:
         "Built a responsive shopping cart app with smooth product browsing and cart management.",
@@ -15,8 +15,8 @@ export default function Projects() {
     {
       title: "Lead Management CRM",
       img: "/CRM.png",
-      github: "#",
-      live: "#",
+      github: "https://github.com/Kesavakumar10/leadflow/tree/main/frontend/myapp",
+      live: "https://leadflowcr.netlify.app/",
       description:
         "Developed a CRM dashboard to manage leads and streamline customer follow-ups.",
       tech: ["React", "Node.js", "MongoDB"],
