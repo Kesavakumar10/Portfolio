@@ -4,13 +4,13 @@ import { FaFolderOpen } from "react-icons/fa";
 export default function Projects() {
   const projects = [
     {
-      title: "Shopping Cart Web Application",
-      img: "/WebCart.png",
-      github: "https://github.com/Kesavakumar10/EliteArena",
-      live: "https://elitecart1.netlify.app/",
+      title: "Headless CMS",
+      img: "/Headless-cms.png",
+      github: "https://github.com/Kesavakumar10/Headless-cms-client-react",
+      live: "https://blogspace-cms.netlify.app",
       description:
-        "Built a responsive shopping cart app with smooth product browsing and cart management.",
-      tech: ["React", "JavaScript", "CSS", "Material-UI"],
+        "Developed a full-stack Headless CMS with AI-powered blog and image generation, rich text editing, SEO management, scheduled publishing, and secure admin authentication.",
+      tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT", "Multer", "Tiptap", "Gemini AI", "Pollinations AI"],
     },
     {
       title: "Lead Management CRM",
@@ -19,8 +19,18 @@ export default function Projects() {
       live: "https://leadflowcr.netlify.app/",
       description:
         "Developed a CRM dashboard to manage leads and streamline customer follow-ups.",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
     },
+    {
+      title: "Shopping Cart Web Application",
+      img: "/WebCart.png",
+      github: "https://github.com/Kesavakumar10/EliteArena",
+      live: "https://elitecart1.netlify.app/",
+      description:
+        "Built a responsive shopping cart app with smooth product browsing and cart management.",
+      tech: ["React", "JavaScript", "CSS", "Material-UI", "Node.js", "Express.js", "MongoDB", "REST API"],
+    },
+    
   ];
 
   return (
