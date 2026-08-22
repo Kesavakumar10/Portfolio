@@ -46,7 +46,7 @@ export default function Hero() {
          <FaEnvelope /> React Out
       </a>
 
-      <a href="/kesavakumar_resume.pdf" className="btn outline" download>
+      <a href="/kesavakumar-resume.pdf" className="btn outline" download>
         <FaDownload /> Download CV
       </a>
 
