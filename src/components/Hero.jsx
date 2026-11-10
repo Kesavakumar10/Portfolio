@@ -38,7 +38,7 @@ export default function Hero() {
 
     <h1>KESAVAKUMAR R</h1>
 
-    <p>MERN Stack Developer</p>
+    <p>FULL STACK DEVELOPER</p>
 
     <div className="btn-group">
 

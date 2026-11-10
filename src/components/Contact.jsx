@@ -26,6 +26,7 @@ export default function Contact() {
       >
         LET'S COLLABORATE
       </h1>
+
       <p className="heading-line"></p>
 
       <motion.div
@@ -48,23 +49,35 @@ export default function Contact() {
           Stay in Touch
         </h2>
 
-        <div className="contact-item">
+        {/* Phone */}
+        <a
+          href="tel:+919444237869"
+          className="contact-item"
+          aria-label="Call Kesavakumar"
+        >
           <FaPhone />
           <div>
             <p style={{ color: "white" }}>Mobile</p>
             <span>+91 94442 37869</span>
           </div>
-        </div>
+        </a>
 
-        <div className="contact-item">
+        {/* Email */}
+        <a
+          href="mailto:kesavakumar0005@gmail.com"
+          className="contact-item"
+          aria-label="Email Kesavakumar"
+        >
           <FaEnvelope />
           <div>
             <p style={{ color: "white" }}>Email</p>
             <span>kesavakumar0005@gmail.com</span>
           </div>
-        </div>
+        </a>
 
-        <div className="cta-mini">Open to freelance work and meaningful collaborations</div>
+        <div className="cta-mini">
+          Open to freelance work and meaningful collaborations
+        </div>
       </motion.div>
 
       <motion.div
@@ -80,7 +93,7 @@ export default function Contact() {
           <a
             href="https://github.com/Kesavakumar10"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="social-btn github"
           >
             <FaGithub /> GitHub
@@ -89,7 +102,7 @@ export default function Contact() {
           <a
             href="https://www.linkedin.com/in/kesavakumar-ramesh/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="social-btn linkedin"
           >
             <FaLinkedin /> LinkedIn
@@ -98,9 +111,10 @@ export default function Contact() {
 
         <div className="cta-box">
           <h3 className="cta-heading">Let's Work Together</h3>
+
           <p className="cta-text">
-            Open to opportunities and meaningful collaborations. Let's create something
-            impactful.
+            Open to opportunities and meaningful collaborations.
+            Let's create something impactful.
           </p>
         </div>
       </motion.div>
